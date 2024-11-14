@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins', sans-serif;
+ background-color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #000;
+    box-shadow: 0 0 50px #0ef;
+    border-radius: 20px;
+    padding: 40px;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+ h2{
+    font-size: 30px;
+    color: #fff;
+    align-items: center;
+
+}
+ .input-box{
+position: relative;
+margin: 30px 0;
+border-bottom:2px solid #fff ;
+ }
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left:5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+}
+.input-box input{
+    width: 320px;
+    height: 40px;
+    font-size:16px;
+    color: #fff;
+    padding:0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.forget-password{
+    margin: -5px 0 15px 5px;
+}
+.forget-password label{
+    color: #fff;
+    font-size: 14px;
+}
+.forget-password label input{
+    accent-color: #0ef;
+}
+button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+.Remeber{
+    color: #fff;
+    margin: -5px 0 15px 5px;
+}
+.signUp-link{
+   font-size: 14px;
+    
+}
